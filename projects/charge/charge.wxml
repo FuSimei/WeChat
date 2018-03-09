@@ -1,0 +1,6 @@
+<!--projects/charge/charge.wxml-->
+<view class='container'>
+  <view class='title'>请输入充值金额</view>
+  <view class='ipt'><input bindinput='bindinput'></input></view>
+  <button class='btn-charge' bindtap='bindtap'> 充值</button>
+</view>

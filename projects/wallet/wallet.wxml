@@ -1,0 +1,29 @@
+<!--projects/wallet/wallet.wxml-->
+<view class='container'>
+  <view class='money'>
+    <view class='money-title'>
+      <text>我的余额(元)
+       </text>
+    </view>
+    <view class='money-content'>
+      <text>{{money}}</text>
+    </view>
+    <view class='money-des'>
+      <text>余额说明</text>
+    </view>
+  </view>
+  <button class='btn-charge' bindtap='charge'>充值</button>
+  <view class='my-ticket same'>
+    <text>我的用车券</text>
+    <text>></text>
+  </view>
+  <view class='my-money same '>
+    <text>我的押金</text>
+    <text>></text>
+  </view>
+  <view class='about same'>
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+  <button class='btn-charge' bindtap='goMap'>返回地图</button>
+</view>

@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "projects/index/index",
+    "projects/test/test",
+    "projects/scanCode/scanCode",
+    "projects/billing/billing",
+    "projects/warn/warn",
+    "projects/my/my",
+    "projects/wallet/wallet",
+    "projects/charge/charge"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "共享单车",
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "projects/index/index",
+          "text": "index"
+        },
+        {
+          "pagePath": "projects/test/test",
+          "text": "test"
+        }
+      ]
+    }
+  }
+}

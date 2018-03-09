@@ -1,0 +1,14 @@
+<!--projects/billing/billing.wxml-->
+<view class='container'>
+  <view class='number'>
+    <text>当前单车编号：{{num}}</text>
+  </view>
+  <view class='number-content'>
+    <text>{{text}}</text>
+    <view>{{hours}}:{{minutes}}:{{seconds}}</view>  
+  </view>
+  <view class='endride'>
+  <button type='warn' bindtap='endride' disabled='{{disabled}}'>结束骑行</button>
+  <button type='primary' bindtap='movetoIndex'>回到地图</button>
+  </view>
+</view>
